@@ -154,4 +154,8 @@ footer{
         position: sticky;
         bottom: 0;
     }
+    footer h3 a{
+    text-decoration: none;
+    color: white;
+}
   }
