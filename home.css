@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 60px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
+    justify-content: space-between;  
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+
+}
+.logo h3{
+    color: orange;
+    margin-left: 30px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+ul li a:hover{
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.anime{
+    min-height: 100vh;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center ;
+    justify-content: space-around;
+}
+.anime img{
+    width: 300px;
+}
+.information-personnage{
+    width: 50%;
+}
+.information-personnage button{
+    background-color: blue;
+    width: 150px;
+    height: 30px;
+    border:none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.information-personnage button:hover{
+    background-color: orange;
+    width: 150px;
+    height: 30px;
+    border:none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.information-personnage h2{
+    text-align: justify;
+}
+.another-anime{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: green;
+}
+.list-personnage{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+.single-personne{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.single-personne img{
+    width: 100px;
+    height: 200px;
+}
+.all-info{
+    /* min-height: 100vh; */
+    padding: 30px;
+    text-align: justify;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: green;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+/* had chi ghi zaayd */
+@media only screen and (max-width: 600px) {
+    .information-personnage{
+        width: 90%;
+    }
+    .anime{
+        flex-direction: column-reverse;
+    }
+    nav{
+        height: 60px;
+        background-color: blue;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center; 
+        flex-direction: column; 
+        justify-content: center;  
+        /* position: fixed; */
+        position: sticky;
+        top: 0;
+    
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 70px;
+        background-color: blue;
+        color: white;
+        position: sticky;
+        bottom: 0;
+    }
+  }

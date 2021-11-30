@@ -1,0 +1,37 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    background-color: rgb(167, 167, 167);
+    width: 330px;
+    padding: 30px;
+    height: 300px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+form input{
+    border-radius: 23px;
+    border:none;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+#submit{
+    background-color: orange;
+    color: white;
+    width: 40% ;
+}
